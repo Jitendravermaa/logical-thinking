@@ -1,0 +1,62 @@
+import java.lang.*;
+import java.util.Scanner;
+
+     public class Main {
+     public static void main (String[] args) {
+
+        Scanner Sc = new Scanner(System.in);
+        //System.out.println("Enter the month num");
+        int month = Sc.nextInt();
+        
+        String MonthName="";
+
+         if (month==1){
+            MonthName = "January";
+       }
+        else if (month==2){
+            MonthName = "February";
+       } 
+        else if (month==3){
+            MonthName = "March";
+        }
+        else if (month==4){
+            MonthName = "April";
+        }
+        else if (month==5){
+            MonthName = "May";
+        }
+         else if (month==6){
+            MonthName = "June";
+  
+        }else if(month==6){
+            MonthName = "June";
+         
+        }else if(month==7){
+            MonthName = "July";
+           
+        }else if(month==8){
+            MonthName = "August";
+            
+        }else if(month==9){
+            MonthName = "September";
+           
+        }else if(month==10){
+            MonthName = "October";
+           
+        }else if(month==11){
+            MonthName = "November";
+           
+        } else{
+            MonthName = "December";
+           
+        } 
+        System.out.println(MonthName);
+
+
+
+
+    }
+
+
+
+}
